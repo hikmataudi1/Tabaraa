@@ -1,0 +1,23 @@
+{
+  "hosting": {
+    "public": "dist",  
+    "rewrites": [
+      {
+        "source": "/admin",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/home",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/about",
+        "destination": "/index.html"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

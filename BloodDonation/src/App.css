@@ -1,0 +1,18 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: lightgray !important;
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100vh !important;
+}
+
+main {
+  flex-grow: 1 !important;
+}
+
+.forhover:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
